@@ -1,0 +1,36 @@
+.main-content {
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+md-card {
+    max-width: 1500px !important;
+    margin: 0px auto;
+}
+.search-bar {
+    overflow: hidden;
+    position: relative;
+}
+#t-logo {
+    width: 100px;
+    height: auto;
+    top: -300px;
+    left: 100px;
+    float: right;
+/*    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);*/
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+    display: inline-block;
+}
+
+.results {
+    align-content: center;
+}

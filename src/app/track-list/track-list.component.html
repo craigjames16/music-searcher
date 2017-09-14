@@ -1,0 +1,24 @@
+<div class="main-content">
+    <md-card class="search-bar">
+        <img src="http://localhost/MusicSearch/src/app/track-list/TrackPond_Logo.png" id="t-logo" />
+        <md-card-title>TrackPond Music Search</md-card-title><br />
+        <form (ngSubmit)="getTracks(search)">
+            <md-form-field floatPlaceholder>
+                <md-placeholder>Search Term</md-placeholder>
+                <input [(ngModel)]="search" type="text" class="search" mdInput name="search"  />
+            </md-form-field>
+            <br>
+            <button type="submit" md-raised-button class="searchButton" >Click Me</button>
+        </form>
+    </md-card>
+<br />
+    <md-card *ngIf="tracksFound" class="results">
+        <h4 md-subeader>Results</h4>
+        <masonry>
+            <div *ngFor="let track of tracks">
+            <app-track [track]="track"></app-track>
+            </div>
+        </masonry>
+    </md-card>
+</div>
+

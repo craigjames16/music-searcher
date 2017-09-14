@@ -1,0 +1,7 @@
+<masonry-brick class=track-container>
+    <div class="track-background" [ngStyle]="{'background-image':'url('+ track.thumb +')'}"></div>
+    <div class="track-info">
+        <h3><b>{{track.track_artist}}</b> {{track.track_title}}</h3>
+        <p>{{ track.earliest_dateposted }}</p>
+    </div>
+</masonry-brick>
