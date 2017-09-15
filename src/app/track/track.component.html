@@ -2,6 +2,8 @@
     <div class="track-background" [ngStyle]="{'background-image':'url('+ track.thumb +')'}"></div>
     <div class="track-info">
         <h3><b>{{track.track_artist}}</b> {{track.track_title}}</h3>
-        <p>{{ track.earliest_dateposted }}</p>
+        <a *ngIf="youtubeURL" href="{{youtubeURL}}" target="_blank"><img class="icon" src="../../assets/img/yt-icon.png" /></a>
+        <a *ngIf="spotifyURL" href={{spotifyURL}} target="_blank"><img class="icon" src="../../assets/img/sp-icon.png" /></a>
+        <a *ngIf="soundcloudURL" href={{soundcloudURL}} target="_blank"><img class="icon" src="../../assets/img/sc-icon.png" /></a>
     </div>
 </masonry-brick>

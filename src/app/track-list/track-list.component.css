@@ -5,33 +5,19 @@
     margin: 0px auto;
     /*overflow: scroll;*/
 }
-md-card {
+.main-content md-card {
     max-width: 1500px !important;
     margin: 0px auto;
 }
 .search-bar {
     overflow: hidden;
     position: relative;
+    background-image: url('./../../assets/img/TrackPond_Logo_Tilted.png');
+    background-position: right;
+    background-repeat: no-repeat;
 }
-#t-logo {
-    width: 100px;
-    height: auto;
-    top: -300px;
-    left: 100px;
-    float: right;
-/*    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -o-transform: rotate(30deg);*/
-}
-
-#logo {
-    height: 80px;
-    width: auto;
-    display: inline-block;
-}
-
-.results {
-    align-content: center;
+.loader img {
+    display: block;
+    opacity: .9;
+    margin: 0px auto;
 }

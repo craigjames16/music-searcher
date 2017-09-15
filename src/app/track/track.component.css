@@ -1,3 +1,10 @@
+.track-container {
+    margin: 10px 10px 10px 10px;
+    max-width: 300px;
+    word-wrap: normal;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+    border-radius: 2px;
+}
 .track-background {
     background-size:cover;
     height: 300px;
@@ -15,10 +22,14 @@
 .track-info p {
     color: rgb(100,100,100);
 }
-.track-container {
-    margin: 10px 10px 10px 10px;
-    max-width: 300px;
-    word-wrap: normal;
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
-    border-radius: 2px;
+.icon {
+    height: 40px;
+    width:auto;
+    display: inline-block;
+    margin: 10px;
+    opacity: .5;
+}
+.icon:hover {
+    opacity: .9;
+    cursor: pointer;
 }

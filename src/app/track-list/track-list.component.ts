@@ -23,6 +23,7 @@ export class TrackListComponent implements OnInit {
 
   getTracks(query: string) {
       this.searching = true;
+      this.tracksFound = false;
       this._trackservice.getTracks(query).subscribe((data: Track[]) => this.handleSuccess(data));
   }
   ngOnInit() {
