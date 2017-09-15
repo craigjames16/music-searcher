@@ -8,15 +8,16 @@
                 <input [(ngModel)]="search" type="text" class="search" mdInput name="search"  />
             </md-form-field>
             <br>
-            <button type="submit" md-raised-button class="searchButton" >Click Me</button>
+            <button type="submit" md-raised-button class="searchButton" >Search</button>
         </form>
     </md-card>
 <br />
+<md-card *ngIf="searching">Searching</md-card>
     <md-card *ngIf="tracksFound" class="results">
         <h4 md-subeader>Results</h4>
         <masonry>
             <div *ngFor="let track of tracks">
-            <app-track [track]="track"></app-track>
+                <app-track [track]="track"></app-track>
             </div>
         </masonry>
     </md-card>

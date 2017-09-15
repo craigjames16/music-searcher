@@ -1,9 +1,9 @@
 body {
     padding: 0px !important;
     background: #61537c !important;
-    background: -webkit-linear-gradient(#61537c, #433b51);
-    background: -o-linear-gradient(#61537c, #433b51);
-    background: -moz-linear-gradient(#61537c, #433b51);
-    background: linear-gradient(#61537c, #433b51) !important;
+    /*background: -webkit-linear-gradient(#61537c, #433b51);*/
+    /*background: -o-linear-gradient(#61537c, #433b51);*/
+    /*background: -moz-linear-gradient(#61537c, #433b51);*/
+    /*background: linear-gradient(#61537c, #433b51) !important;*/
     
 }
