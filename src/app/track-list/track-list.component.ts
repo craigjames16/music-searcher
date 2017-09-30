@@ -15,8 +15,7 @@ export class TrackListComponent implements OnInit {
   constructor(private _trackservice: TrackService) { }
 
   handleSuccess(data) {
-      this.tracks = data;
-    console.log(data);
+    this.tracks = data;
     this.searching = false;
     this.tracksFound = true;
   }

@@ -3,7 +3,6 @@
     height: 100vh;
     max-width: 1200px;
     margin: 0px auto;
-    /*overflow: scroll;*/
 }
 .main-content md-card {
     max-width: 1500px !important;
